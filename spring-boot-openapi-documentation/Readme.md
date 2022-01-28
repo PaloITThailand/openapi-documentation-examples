@@ -1,22 +1,16 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h3 align="center">API Documentation via OpenAPi 3 </h3>
-
-  <p align="center">
-    This project demonstrates how to document a REST API using Spring Boot with the
-    code-first approach producing a OpenApi 3 spec.
-    <br />
-  </p>
+  <h3 align="center">Spring Boot API Documentation via OpenAPi 3 </h3>
 </p>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-TODO: Add information
+This project demonstrates how to document a REST API using Spring Boot with the
+code-first approach producing a OpenApi 3 spec.
 
 ### Built With
-
 
 * [OpenAPI 3 Specification](https://swagger.io/specification/)
 * [Spring Boot](https://spring.io/)
