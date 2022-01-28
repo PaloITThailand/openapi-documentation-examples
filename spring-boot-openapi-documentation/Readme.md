@@ -17,30 +17,30 @@ code-first approach producing a OpenApi 3 spec.
 * [Apache Maven](https://spring.io/)
 * [Springdoc OpenApi](https://github.com/springdoc/springdoc-openapi)
 
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Clone the project and open it in an IDE of your choosing. You will find the OpenAPI 3 specifications under the
-following path.
-
-TODO: Add information
-
+Clone the project and open it in an IDE of your choosing.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-TODO: Add information
-
 Startup
   ```sh
-  TODO: Add information
+  ./mvnw spring-boot:run
   ```
 
-After starting the application, you can access the generated server using Swagger UI
-under the following URL.
+After starting the application, you can access the following.
 
-  [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
+
+- Swagger UI
+  
+  [http://localhost:8080/openapi](http://localhost:8080/openapi)
+
+
+- Openapi Spec
+  
+  [http://localhost:8090/v3/api-docs](http://localhost:8090/v3/api-docs)
 
 <!-- LICENSE -->
 ## License
