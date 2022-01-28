@@ -1,0 +1,36 @@
+server:
+  port: ${PORT:8090}
+
+spring:
+  application:
+    name: openapi-3-documentation
+  output:
+    ansi:
+      enabled: always
+  main:
+    banner-mode: "off"
+
+# Base path configuration for the generated feign client & webclient
+client:
+  petstore:
+    base-path: https://petstore3.swagger.io/api/v3
+
+# Springfox swagger definition path
+springdoc:
+  swagger-ui:
+    path: /openapi
+
+# Logging level configuration
+logging:
+  level:
+    root: INFO
+    com.paloit: DEBUG
+
+# Feign configuration
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 10000
+        readTimeout: 10000
+        loggerLevel: full
